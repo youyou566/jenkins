@@ -7,7 +7,7 @@ string workspace = "/opt/jenkins/workspace"
 
 //Pipeline
 pipeline {
-	agent {node { label "VM-8-16-centos"
+	agent {node { label "master"
 	              customWorkspace "${workspace}"}}
 
 	options { 
